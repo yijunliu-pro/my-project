@@ -22,13 +22,12 @@ export default {
   name: 'app',
   data(){
     return {
-       message: 'Hello Vue.js!'
+       message: 'This is vue project!'
     }
   },
   components: {
     Header,
     Footer
-    //Footer
   }
 }
 </script>
