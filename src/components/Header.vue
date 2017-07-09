@@ -1,7 +1,6 @@
 <template>
    <div class="app-head">
       <div class="app-head-inner">
-        <img src="../assets/logo.png">
         <div class="head-nav">
           <ul class="nav-list">
             <li>登录</li>
@@ -18,7 +17,7 @@
 
 <script>
 export default {
-  name: 'Header',
+  //name: 'header',
   data () {
     return {
       msg: 'this is a Header component'

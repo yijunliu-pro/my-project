@@ -1,23 +1,17 @@
 <template>
   <div id="app">
-  {{message}}
-   <Header></Header>
-
+    <Header></Header>
     <div class="container">
-      
-
+        <Chart1></Chart1>
     </div>
-
-
-    <Footer></Footer>
-    
+     <Footer></Footer>
   </div>
 </template>
 
 <script>
 import Header from './components/Header'
-import Footer from './components/Footer'
-
+import Footer from './components/footer'
+import Chart1 from './components/chart1.vue'
 export default {
   name: 'app',
   data(){
@@ -27,13 +21,11 @@ export default {
   },
   components: {
     Header,
-    Footer
+    Footer,
+    Chart1
   }
 }
 </script>
-
-
-
 
 <style>
 html, body, div, span, applet, object, iframe,
@@ -92,8 +84,8 @@ body {
 }
 
 .container {
-  width: 1200px;
-  margin: 0 auto;
+  width: 1000px;
+  margin: 20px auto;
 }
 .hr {
   height: 1px;

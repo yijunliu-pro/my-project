@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'Footer',
+  //name: 'Footer',
   data () {
     return {
       msg: 'this is a Footer component'
